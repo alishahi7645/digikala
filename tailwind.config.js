@@ -17,6 +17,7 @@ module.exports = {
     extend: {
       colors:{
         main_digikala: '#ef4056',
+        gray: '#ccc'
       },
     },
   },
