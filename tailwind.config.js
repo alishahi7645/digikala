@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
 module.exports = {
+  darkMode:'class',
   content: ["./src/**/*.html"],
   theme: {
     screens: {
@@ -17,7 +18,10 @@ module.exports = {
     extend: {
       colors:{
         main_digikala: '#ef4056',
-        gray: '#ccc'
+        gray: '#ccc',
+        text_dark:'#fff',
+        bg_dark1:'#242424',
+        bg_dark2:'#000'
       },
     },
   },

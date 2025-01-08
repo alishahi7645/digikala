@@ -1,4 +1,4 @@
-<html lang="en" dir="rtl">
+<html lang="en" dir="rtl" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -6,18 +6,51 @@
     <title>Document</title>
   </head>
   <body
-    class="bg-white w-full h-screen flex justify-center items-center font-iran_Light"
+    class="bg-white dark:bg-bg_dark1 w-full h-screen flex justify-center items-center font-iran_Light"
   >
-    <div class="bg-white border border-gray rounded-lg py-7 flex justify-center items-center flex-col">
-      <img src="../res/login/full-vertical.svg" width="120" height="40" alt="" class="my-4"/>
+    <div
+      class="bg-white dark:bg-bg_dark1 border border-gray rounded-lg py-7 flex justify-center items-center flex-col"
+    >
+      <img
+        src="../res/login/full-vertical.svg"
+        width="120"
+        height="40"
+        alt=""
+        class="my-4"
+      />
       <div class="mx-6">
-        <h3 class="text-xl font-iran_Bold my-5">ورود | ثبت نام</h3>
-        <p class="text-xs leading-6 font-iran_light">سلام!</p>
-        <p class="text-xs leading-6 font-iran_light">لطفا شماره موبایل یا ایمیل خودرا وارد کنید</p>
-        <input type="text" class="w-full border border-gray  rounded-lg px-3 py-3 mt-4" />
-        <p hidden class="text-xs leading-6 text-red-700">لطفا این قسمت را خالی نگذارید</p>
-        <div class="w-full text-white bg-red-500 flex justify-center items-center rounded-lg py-3 font-iran_Bold my-3">ورود</div>
-        <p class="my-5 text-xs">ورود شما به معنای پذیرش <a href="" class="text-blue-800">شرایط دیجی کالا</a> و <a href="" class="text-blue-800">قوانین حریم خصوصی</a> است</p>
+        <h3 class="text-xl dark:text-text_dark font-iran_Bold my-5">
+          ورود | ثبت نام
+        </h3>
+        <p class="text-xs dark:text-text_dark leading-6 font-iran_light">
+          سلام!
+        </p>
+        <p class="text-xs dark:text-text_dark leading-6 font-iran_light">
+          لطفا شماره موبایل یا ایمیل خودرا وارد کنید
+        </p>
+        <input
+          type="text"
+          class="w-full border border-gray dark:text-bg_dark1 rounded-lg px-3 py-3 mt-4"
+        />
+        <p hidden class="text-xs leading-6 text-red-700">
+          لطفا این قسمت را خالی نگذارید
+        </p>
+        <div
+          class="w-full text-white dark:text-text_dark bg-red-500 flex justify-center items-center rounded-lg py-3 font-iran_Bold my-3"
+        >
+          ورود
+        </div>
+        <p class="my-5 text-xs dark:text-text_dark">
+          ورود شما به معنای پذیرش
+          <a href="" class="text-blue-800 dark:text-blue-400"
+            >شرایط دیجی کالا</a
+          >
+          و
+          <a href="" class="text-blue-800 dark:text-blue-400"
+            >قوانین حریم خصوصی</a
+          >
+          است
+        </p>
       </div>
     </div>
   </body>
