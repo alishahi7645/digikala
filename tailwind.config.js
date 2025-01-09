@@ -19,6 +19,7 @@ module.exports = {
       colors:{
         main_digikala: '#ef4056',
         gray: '#ccc',
+        gray_light: '#eee',
         text_dark:'#fff',
         bg_dark1:'#242424',
         bg_dark2:'#000'
